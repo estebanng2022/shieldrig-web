@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "\ud83d\ude80 Run FastAPI (ShieldRig)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\venv\\Scripts\\uvicorn.exe",
+            "args": [
+                "main:app",
+                "--reload",
+                "--app-dir",
+                "backend"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
